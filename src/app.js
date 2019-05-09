@@ -17,8 +17,10 @@ function eventlisteners(){
 
 function uploadAllEmployees(e){
   request.get()
-    .then(data => ui.writeAllEmployeeToUI(data[0]))
-    .catch(error => console.log(error));
+    .then(data => {     
+        ui.writeAllEmployeeToUI(data);
+    })
+    .catch(error => console.error(error));
 }
 
 function submitInformations(e){

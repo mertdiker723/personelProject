@@ -5,6 +5,7 @@ export default class UI{
 
 
     writeAllEmployeeToUI(data){
+        
         let html = "";
         data.forEach((item) => {
             html +=`
@@ -12,10 +13,10 @@ export default class UI{
                 <td>${item.name}</td>
                 <td>${item.surname}</td>
                 <td>${item.email}</td>
-                <td>${item.FirmName}</td>
+                <td>${item.firmName}</td>
                 <td>${item.department}</td>
-                <td>${item.Salary}</td>
-                <td>${item.Gender}</td>
+                <td>${item.salary}</td>
+                <td>${item.gender}</td>
                 <td>${item.id}</td>
                 <td><a href="#" id = "update-employee" class= "btn btn-danger">Güncelle</a></td> 
                 <td> <a href="#" id = "delete-employee" class= "btn btn-danger">Sil</a></td>

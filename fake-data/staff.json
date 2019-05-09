@@ -5,10 +5,20 @@
             "name":"mert",
             "surname":"diker",
             "email":"asd@gmail.com",
-            "FirmName":"Mahle",
+            "firmName":"Mahle",
             "department":"Sale",
-            "Salary":3000,
-            "Gender":"Male"
+            "salary":3000,
+            "gender":"Male"
+        }, 
+        {
+            "id":2,
+            "name":"mert",
+            "surname":"diker",
+            "email":"asd@gmail.com",
+            "firmName":"Mahle",
+            "department":"Sale",
+            "salary":3000,
+            "gender":"Male"
         }
     ]
 }
