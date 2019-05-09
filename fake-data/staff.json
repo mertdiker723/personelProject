@@ -1,0 +1,13 @@
+{
+    "employees": [
+        {
+            "name":"mert",
+            "surname":"diker",
+            "email":"asd@gmail.com",
+            "FirmName":"Mahle",
+            "department":"Sale",
+            "Salary":3000,
+            "Gender":"Male"
+        }
+    ]
+}
