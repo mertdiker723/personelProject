@@ -5,12 +5,12 @@ const request = new Request();
 const ui = new UI();
 
 //texts
-const name = $("input[name=empName]");
-const surname = $("input[name=surname]");
-const email = $("input[name=email]");
-const firstName = $("input[name=firmName]");
-const department = $("input[name=department]");
-const salary = $("input[name=salary]");
+const name = document.getElementById("empName");
+const surname = document.getElementById("surname");
+const email = document.getElementById("email");
+const firstName = document.getElementById("firmName");
+const department = document.getElementById("department");
+const salary = document.getElementById("salary");
 
 const form = document.getElementById("employee-form");
 const updateHidden = document.getElementById("update");
@@ -32,6 +32,6 @@ function uploadAllEmployees(e){
 }
 
 function submitInformations(e){
-    
+    console.log(name);
     e.preventDefault();
 }
