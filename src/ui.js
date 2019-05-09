@@ -18,8 +18,8 @@ export default class UI{
                 <td>${item.salary}</td>
                 <td>${item.gender}</td>
                 <td>${item.id}</td>
-                <td><a href="#" id = "update-employee" class= "btn btn-danger">Güncelle</a></td> 
-                <td> <a href="#" id = "delete-employee" class= "btn btn-danger">Sil</a></td>
+                <td><a href="#" id = "update-employee" class= "btn btn-success">Update</a></td> 
+                <td> <a href="#" id = "delete-employee" class= "btn btn-danger">Delete</a></td>
             </tr>
             `;
         })

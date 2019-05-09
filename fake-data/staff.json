@@ -2,7 +2,7 @@
     "employees": [
         {
             "id":1,
-            "name":"mert",
+            "empName":"mert",
             "surname":"diker",
             "email":"asd@gmail.com",
             "firmName":"Mahle",
@@ -12,7 +12,7 @@
         }, 
         {
             "id":2,
-            "name":"mert",
+            "empName":"mert",
             "surname":"diker",
             "email":"asd@gmail.com",
             "firmName":"Mahle",
