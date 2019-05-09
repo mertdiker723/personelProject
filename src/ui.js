@@ -1,6 +1,13 @@
 export default class UI{
     constructor(){
         this.employees = document.getElementById("employees");
+
+        this.name = document.getElementById("empName");
+        this.surname = document.getElementById("surname");
+        this.email = document.getElementById("email");
+        this.firmName = document.getElementById("firmName");
+        this.department = document.getElementById("department");
+        this.salary = document.getElementById("salary");
     }
 
 
@@ -10,7 +17,7 @@ export default class UI{
         data.forEach((item) => {
             html +=`
             <tr>                
-                <td>${item.name}</td>
+                <td>${item.empName}</td>
                 <td>${item.surname}</td>
                 <td>${item.email}</td>
                 <td>${item.firmName}</td>
@@ -25,5 +32,29 @@ export default class UI{
         })
 
         this.employees.innerHTML = html;
+    }
+    writeAnEmployeeToUI(data){
+        this.employees.innerHTML += `
+        <tr>                
+            <td>${data.empName}</td>
+            <td>${data.surname}</td>
+            <td>${data.email}</td>
+            <td>${data.firmName}</td>
+            <td>${data.department}</td>
+            <td>${data.salary}</td>
+            <td>${data.gender}</td>
+            <td>${data.id}</td>
+            <td><a href="#" id = "update-employee" class= "btn btn-success">Update</a></td> 
+            <td> <a href="#" id = "delete-employee" class= "btn btn-danger">Delete</a></td>
+        </tr>
+        `;
+    }
+    cleatInputs(){
+        this.name ="";
+        this.surname = "";
+        this.email = "";
+        this.firmName = "";
+        this.department ="";
+        this.salary = "";
     }
 }
