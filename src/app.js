@@ -4,7 +4,7 @@ import UI from "./ui";
 const request = new Request();
 const ui = new UI();
 
-let array;
+var self = this;
 //texts
 const name = document.getElementById("empName");
 const surname = document.getElementById("surname");
@@ -13,14 +13,14 @@ const firmName = document.getElementById("firmName");
 const department = document.getElementById("department");
 const salary = document.getElementById("salary");
 
-let gender = document.getElementById("gender").onchange = valueBelirle;
+document.getElementById("gender").onchange = valueBelirle;
+
+const genderDisplay = document.getElementById("genderDataDisplay");
+
 
 function valueBelirle(e){
-    console.log(e.target.value);
+    genderDisplay.innerHTML = e.target.value;
 }
-
-
-
 
 const form = document.getElementById("employee-form");
 const updateHidden = document.getElementById("update");
@@ -55,7 +55,7 @@ function submitInformations(e){
             firmName:firmName.value,
             department:department.value,
             salary:Number(salary.value),
-            gender:gender
+            gender:genderDisplay.textContent
         })
         .then(data => ui.writeAnEmployeeToUI(data))
         .catch(error => console.error(error));

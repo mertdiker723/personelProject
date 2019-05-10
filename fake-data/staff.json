@@ -21,34 +21,35 @@
       "gender": "Male"
     },
     {
-      "empName": "fgdfg",
-      "surname": "fsdf",
-      "email": "sdfsd",
-      "firmName": "sdfs",
-      "department": "sdf",
-      "salary": 2500,
+      "empName": "hasan",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "dfg",
+      "department": "Bilişim",
+      "salary": 9000,
       "gender": "Male",
       "id": 3
     },
     {
-      "empName": "fgdfg",
-      "surname": "fsdf",
-      "email": "sdfsd",
-      "firmName": "sdfs",
-      "department": "sdf",
-      "salary": 2500,
-      "gender": "Male",
+      "empName": "hasan",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "dfg",
+      "department": "Bilişim",
+      "salary": 9000,
+      "gender": "Female",
       "id": 4
     },
     {
-      "empName": "fgdfg",
-      "surname": "fsdf",
-      "email": "sdfsd",
-      "firmName": "sdfs",
-      "department": "sdf",
-      "salary": 2500,
+      "empName": "hasan",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "dfg",
+      "department": "Bilişim",
+      "salary": 9000,
       "gender": "Male",
       "id": 5
     }
+ 
   ]
 }
