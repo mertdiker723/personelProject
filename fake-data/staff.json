@@ -1,44 +1,34 @@
 {
   "employees": [
     {
-      "empName": "hasannnn",
-      "surname": "masan",
-      "email": "asd@gmail.com",
-      "firmName": "sds",
-      "department": "eqw",
-      "salary": 2000,
-      "gender": "Male",
-      "id": 1
-    },
-    {
-      "empName": "mahooo",
-      "surname": "salo",
-      "email": "salo@sda.com",
-      "firmName": "weq",
-      "department": "satış",
-      "salary": 8888,
-      "gender": "Male",
-      "id": 2
-    },
-    {
-      "empName": "zalogfgf",
-      "surname": "malo",
-      "email": "alo@gmail.com",
-      "firmName": "we",
-      "department": "bilişim",
-      "salary": 7000,
-      "gender": "Male",
-      "id": 3
-    },
-    {
-      "empName": "maho",
-      "surname": "ağa",
+      "empName": "Maho",
+      "surname": "Ağa",
       "email": "maho@gmail.com",
       "firmName": "Hasan LTD. STI",
-      "department": "Satış",
-      "salary": 5000,
-      "gender": "Male",
+      "department": "Bilişim",
+      "salary": 6000,
+      "gender": "Female",
       "id": 4
+    },
+    {
+      "empName": "Hasan",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "Mahle Gmbh",
+      "department": "Bilişim",
+      "salary": 3000,
+      "gender": "Female",
+      "id": 5
+    },
+    {
+      "empName": "Mıro",
+      "surname": "Kıro",
+      "email": "asd@gmail.com",
+      "firmName": "Kıro LTD",
+      "department": "Muhasebe",
+      "salary": 5000,
+      "gender": "Female",
+      "id": 6
     }
   ]
 }

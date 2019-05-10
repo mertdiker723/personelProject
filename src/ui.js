@@ -59,6 +59,7 @@ export default class UI{
         this.firmName.value = "";
         this.department.value ="";
         this.salary.value = "";
+        this.gender.value = "Male";
     }
 
     updateButtonDisplayBlok(data){
