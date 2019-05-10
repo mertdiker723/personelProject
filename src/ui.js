@@ -1,6 +1,7 @@
 export default class UI{
     constructor(){
         this.employees = document.getElementById("employees");
+        this.update = document.getElementById("update");
 
         this.name = document.getElementById("empName");
         this.surname = document.getElementById("surname");
@@ -57,7 +58,31 @@ export default class UI{
         this.department.value ="";
         this.salary.value = "";
     }
+
+    updateButtonDisplayBlok(data){
+        if(this.update.style.display === "none"){
+            this.update.style.display = "block";
+           this.addAllRowValueIntoInputs(data);
+        }
+        else if(this.update.style.display === "block"){
+            this.update.style.display = "none";
+
+            this.cleatInputs();
+        }
+    }
     
+    addAllRowValueIntoInputs(data){
+        const children = data.children; //htmlCollection olarak aldık
+
+        this.name.value = children[0].textContent;
+        this.surname.value = children[1].textContent;
+        this.email.value = children[2].textContent;
+        this.firmName.value = children[3].textContent;
+        this.department.value =children[4].textContent;
+        this.salary.value = children[5].textContent;
+        
+    }
+
     deleteEmployeFromUI(data){
         data.remove();
     }

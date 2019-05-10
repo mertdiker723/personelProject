@@ -5,6 +5,7 @@ const request = new Request();
 const ui = new UI();
 
 var self = this;
+let updateState = null;
 //texts
 const name = document.getElementById("empName");
 const surname = document.getElementById("surname");
@@ -24,6 +25,7 @@ function valueBelirle(e){
 
 const form = document.getElementById("employee-form");
 const updateHidden = document.getElementById("update");
+
 const employeesTbody = document.getElementById("employees");
 
 eventlisteners();
@@ -33,6 +35,7 @@ function eventlisteners(){
     form.addEventListener("submit",submitInformations);
     document.addEventListener("DOMContentLoaded",uploadAllEmployees);
     employeesTbody.addEventListener("click",deleteAndUpdate);
+    updateHidden.addEventListener("click",updateOneValue);
 
 }
 
@@ -74,8 +77,14 @@ function deleteAndUpdate(e){
         })
         .catch(error => console.log(error));
     }
-    else if(e.target.id = "update-employee"){
+    else if(e.target.id = "update-employee"){        
 
+        ui.updateButtonDisplayBlok(e.target.parentElement.parentElement); // update Employee  button ına basınca kaybolsun toogle gibi olmasın
+    
     }
 }
 
+
+function updateOneValue(){
+
+}

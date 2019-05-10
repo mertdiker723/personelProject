@@ -37,4 +37,17 @@ export default class Request{
         return "Silme İşlemi Başarılı.."
 
     }
+
+    async put(id,data){
+        const updateApi = await fetch(`${this.url}/${id}`,{
+            method:"PUT",
+            body:JSON.stringify(data),
+            headers:{
+                "Content-type": "application/json; charset=UTF-8"
+            }
+        })
+        const updateJson = await updateApi.json();
+
+        return updateJson;
+    }
 }
