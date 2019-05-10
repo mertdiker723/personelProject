@@ -50,13 +50,14 @@ export default class UI{
         `;
     }
     cleatInputs(){
-        this.name ="";
-        this.surname = "";
-        this.email = "";
-        this.firmName = "";
-        this.department ="";
-        this.salary = "";
+        this.name.value ="";
+        this.surname.value = "";
+        this.email.value = "";
+        this.firmName.value = "";
+        this.department.value ="";
+        this.salary.value = "";
     }
+    
     deleteEmployeFromUI(data){
         data.remove();
     }

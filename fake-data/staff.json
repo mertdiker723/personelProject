@@ -1,34 +1,94 @@
 {
   "employees": [
     {
-      "id": 1,
       "empName": "mert",
-      "surname": "diker",
-      "email": "asd@gmail.com",
-      "firmName": "Mahle",
-      "department": "Sale",
+      "surname": "dijer",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "Baki",
+      "department": "Satış",
       "salary": 3000,
-      "gender": "Male"
+      "gender": "Female",
+      "id": 1
     },
     {
-      "empName": "fgdfg",
-      "surname": "Diker",
+      "empName": "mert",
+      "surname": "dijer",
       "email": "mertdiker723@gmail.com",
-      "firmName": "ewr",
-      "department": "Bilişim",
-      "salary": 4000,
+      "firmName": "Baki",
+      "department": "Satış",
+      "salary": 3000,
       "gender": "Female",
       "id": 2
     },
     {
+      "empName": "mert",
+      "surname": "dijer",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "Baki",
+      "department": "Satış",
+      "salary": 3000,
+      "gender": "Female",
+      "id": 3
+    },
+    {
+      "empName": "mert",
+      "surname": "dijer",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "Baki",
+      "department": "Satış",
+      "salary": 3000,
+      "gender": "Female",
+      "id": 4
+    },
+    {
+      "empName": "mert",
+      "surname": "dijer",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "Baki",
+      "department": "Satış",
+      "salary": 3000,
+      "gender": "Female",
+      "id": 5
+    },
+    {
       "empName": "fgdfg",
       "surname": "Diker",
       "email": "mertdiker723@gmail.com",
       "firmName": "ewr",
-      "department": "Bilişim",
-      "salary": 4000,
+      "department": "Pazarlama",
+      "salary": 2500,
+      "gender": "Female",
+      "id": 6
+    },
+    {
+      "empName": "fgdfg",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "dfg",
+      "department": "Pazarlama",
+      "salary": 9000,
+      "gender": "Female",
+      "id": 7
+    },
+    {
+      "empName": "fgdfg",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "sdfs",
+      "department": "hasso",
+      "salary": 9000,
       "gender": "Rather not say",
-      "id": 3
+      "id": 8
+    },
+    {
+      "empName": "fgdfg",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "dfg",
+      "department": "Bilişim",
+      "salary": 9000,
+      "gender": "Male",
+      "id": 9
     }
   ]
 }

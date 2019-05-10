@@ -36,8 +36,7 @@ function eventlisteners(){
 
 }
 
-function uploadAllEmployees(e){    
-  
+function uploadAllEmployees(e){      
   request.get()
     .then(data => {     
         ui.writeAllEmployeeToUI(data);
@@ -63,7 +62,7 @@ function submitInformations(e){
         .then(data => ui.writeAnEmployeeToUI(data))
         .catch(error => console.error(error));
     }
-    
+    ui.cleatInputs();
     e.preventDefault();
 }
 
@@ -73,7 +72,10 @@ function deleteAndUpdate(e){
         .then(data => {          
             ui.deleteEmployeFromUI(e.target.parentElement.parentElement); // !!
         })
-        .catch(error => console.log("hata"));
+        .catch(error => console.log(error));
+    }
+    else if(e.target.id = "update-employee"){
+
     }
 }
 
