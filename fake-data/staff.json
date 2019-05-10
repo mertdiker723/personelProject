@@ -49,7 +49,36 @@
       "salary": 9000,
       "gender": "Male",
       "id": 5
+    },
+    {
+      "empName": "Joe",
+      "surname": "James",
+      "email": "joe@gmail.com",
+      "firmName": "Mahle Gmbh",
+      "department": "Sale",
+      "salary": 6000,
+      "gender": "Male",
+      "id": 6
+    },
+    {
+      "empName": "Joe",
+      "surname": "James",
+      "email": "joe@gmail.com",
+      "firmName": "Mahle Gmbh",
+      "department": "Sale",
+      "salary": 6000,
+      "gender": "Female",
+      "id": 7
+    },
+    {
+      "empName": "Joe",
+      "surname": "James",
+      "email": "joe@gmail.com",
+      "firmName": "Mahle Gmbh",
+      "department": "Sale",
+      "salary": 6000,
+      "gender": "Female",
+      "id": 8
     }
- 
   ]
 }
