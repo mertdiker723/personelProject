@@ -27,4 +27,14 @@ export default class Request{
             .catch(error => reject(error));            
         })
     }
+
+    // delete(id){
+    //     const deleteApi = await fetch(`${this.url}/${id}`,{
+    //         method:"DELETE"
+    //     });
+    //     const deleteJson = await deleteApi.json();
+
+    //     return "Silme İşlemi Başarılı..";
+
+    // }
 }

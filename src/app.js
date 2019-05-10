@@ -24,13 +24,16 @@ function valueBelirle(e){
 
 const form = document.getElementById("employee-form");
 const updateHidden = document.getElementById("update");
+const employeesTbody = document.getElementById("employees");
 
 eventlisteners();
 
 
 function eventlisteners(){
     form.addEventListener("submit",submitInformations);
-    document.addEventListener("DOMContentLoaded",uploadAllEmployees)
+    document.addEventListener("DOMContentLoaded",uploadAllEmployees);
+    employeesTbody.addEventListener("click",deleteAndUpdate);
+
 }
 
 function uploadAllEmployees(e){    
@@ -63,3 +66,8 @@ function submitInformations(e){
     
     e.preventDefault();
 }
+
+function deleteAndUpdate(e){
+    console.log(e.target);
+}
+
