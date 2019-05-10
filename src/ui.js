@@ -57,4 +57,7 @@ export default class UI{
         this.department ="";
         this.salary = "";
     }
+    deleteEmployeFromUI(data){
+        data.remove();
+    }
 }

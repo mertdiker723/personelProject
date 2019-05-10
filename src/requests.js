@@ -28,13 +28,13 @@ export default class Request{
         })
     }
 
-    // delete(id){
-    //     const deleteApi = await fetch(`${this.url}/${id}`,{
-    //         method:"DELETE"
-    //     });
-    //     const deleteJson = await deleteApi.json();
+   async delete(id){
+        const deleteApi = await fetch(`${this.url}/${id}`,{
+            method:"DELETE"
+        });
+        const deleteJson = await deleteApi.json();
 
-    //     return "Silme İşlemi Başarılı..";
+        return "Silme İşlemi Başarılı.."
 
-    // }
+    }
 }

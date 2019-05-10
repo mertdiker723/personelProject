@@ -68,6 +68,12 @@ function submitInformations(e){
 }
 
 function deleteAndUpdate(e){
-    console.log(e.target);
+    if(e.target.id === "delete-employee"){
+        request.delete(e.target.parentElement.previousElementSibling.previousElementSibling.textContent)
+        .then(data => {          
+            ui.deleteEmployeFromUI(e.target.parentElement.parentElement); // !!
+        })
+        .catch(error => console.log("hata"));
+    }
 }
 

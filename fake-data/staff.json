@@ -11,74 +11,24 @@
       "gender": "Male"
     },
     {
-      "id": 2,
-      "empName": "mert",
-      "surname": "diker",
-      "email": "asd@gmail.com",
-      "firmName": "Mahle",
-      "department": "Sale",
-      "salary": 3000,
-      "gender": "Male"
-    },
-    {
-      "empName": "hasan",
+      "empName": "fgdfg",
       "surname": "Diker",
       "email": "mertdiker723@gmail.com",
-      "firmName": "dfg",
+      "firmName": "ewr",
       "department": "Bilişim",
-      "salary": 9000,
-      "gender": "Male",
+      "salary": 4000,
+      "gender": "Female",
+      "id": 2
+    },
+    {
+      "empName": "fgdfg",
+      "surname": "Diker",
+      "email": "mertdiker723@gmail.com",
+      "firmName": "ewr",
+      "department": "Bilişim",
+      "salary": 4000,
+      "gender": "Rather not say",
       "id": 3
-    },
-    {
-      "empName": "hasan",
-      "surname": "Diker",
-      "email": "mertdiker723@gmail.com",
-      "firmName": "dfg",
-      "department": "Bilişim",
-      "salary": 9000,
-      "gender": "Female",
-      "id": 4
-    },
-    {
-      "empName": "hasan",
-      "surname": "Diker",
-      "email": "mertdiker723@gmail.com",
-      "firmName": "dfg",
-      "department": "Bilişim",
-      "salary": 9000,
-      "gender": "Male",
-      "id": 5
-    },
-    {
-      "empName": "Joe",
-      "surname": "James",
-      "email": "joe@gmail.com",
-      "firmName": "Mahle Gmbh",
-      "department": "Sale",
-      "salary": 6000,
-      "gender": "Male",
-      "id": 6
-    },
-    {
-      "empName": "Joe",
-      "surname": "James",
-      "email": "joe@gmail.com",
-      "firmName": "Mahle Gmbh",
-      "department": "Sale",
-      "salary": 6000,
-      "gender": "Female",
-      "id": 7
-    },
-    {
-      "empName": "Joe",
-      "surname": "James",
-      "email": "joe@gmail.com",
-      "firmName": "Mahle Gmbh",
-      "department": "Sale",
-      "salary": 6000,
-      "gender": "Female",
-      "id": 8
     }
   ]
 }
