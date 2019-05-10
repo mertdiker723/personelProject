@@ -9,6 +9,8 @@ export default class UI{
         this.firmName = document.getElementById("firmName");
         this.department = document.getElementById("department");
         this.salary = document.getElementById("salary");
+
+        this.gender = document.getElementById("gender");
     }
 
 
@@ -80,7 +82,25 @@ export default class UI{
         this.firmName.value = children[3].textContent;
         this.department.value =children[4].textContent;
         this.salary.value = children[5].textContent;
-        
+        this.gender.value = children[6].textContent;
+    }
+
+    updateEmployeeInUI(updatedEmp,value){
+
+        value.innerHTML =
+        `<tr>                
+            <td>${updatedEmp.empName}</td>
+            <td>${updatedEmp.surname}</td>
+            <td>${updatedEmp.email}</td>
+            <td>${updatedEmp.firmName}</td>
+            <td>${updatedEmp.department}</td>
+            <td>${updatedEmp.salary}</td>
+            <td>${updatedEmp.gender}</td>
+            <td>${updatedEmp.id}</td>
+            <td><a href="#" id = "update-employee" class= "btn btn-success">Update</a></td>
+            <td> <a href="#" id = "delete-employee" class= "btn btn-danger">Delete</a></td>
+        </tr>`;
+        this.cleatInputs();
     }
 
     deleteEmployeFromUI(data){

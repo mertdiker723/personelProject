@@ -1,7 +1,7 @@
 {
   "employees": [
     {
-      "empName": "hasan",
+      "empName": "hasannnn",
       "surname": "masan",
       "email": "asd@gmail.com",
       "firmName": "sds",
@@ -11,24 +11,34 @@
       "id": 1
     },
     {
-      "empName": "maho",
+      "empName": "mahooo",
       "surname": "salo",
       "email": "salo@sda.com",
       "firmName": "weq",
       "department": "satış",
       "salary": 8888,
-      "gender": "Female",
+      "gender": "Male",
       "id": 2
     },
     {
-      "empName": "zalo",
+      "empName": "zalogfgf",
       "surname": "malo",
       "email": "alo@gmail.com",
       "firmName": "we",
       "department": "bilişim",
       "salary": 7000,
-      "gender": "Rather not say",
+      "gender": "Male",
       "id": 3
+    },
+    {
+      "empName": "maho",
+      "surname": "ağa",
+      "email": "maho@gmail.com",
+      "firmName": "Hasan LTD. STI",
+      "department": "Satış",
+      "salary": 5000,
+      "gender": "Male",
+      "id": 4
     }
   ]
 }

@@ -80,11 +80,36 @@ function deleteAndUpdate(e){
     else if(e.target.id = "update-employee"){        
 
         ui.updateButtonDisplayBlok(e.target.parentElement.parentElement); // update Employee  button ına basınca kaybolsun toogle gibi olmasın
-    
+        
+        
+        if(updateState === null){
+            updateState = {
+                updateId: e.target.parentElement.previousElementSibling.textContent,
+                updateParent:e.target.parentElement.parentElement
+            }            
+        }
+        else{
+            updateState = null;
+        }
     }
 }
 
 
-function updateOneValue(){
-
+function updateOneValue(e){
+    const data = {
+        empName:name.value,
+        surname:surname.value,
+        email:email.value,
+        firmName:firmName.value,
+        department:department.value,
+        salary:Number(salary.value),
+        gender:genderDisplay.textContent
+    };
+    request.put(updateState.updateId,data)
+    .then(updatedEmp => {
+        ui.updateEmployeeInUI(updatedEmp,updateState.updateParent);
+        // console.log(updatedEmp);
+    })
+    .catch(error => console.log(error));
+    
 }
